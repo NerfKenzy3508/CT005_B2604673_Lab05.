@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f1ea;
+      color: #1d1d1d;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+    .hero {
+      text-align: center;
+      padding: 30px 0 20px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      line-height: 1.1;
+      font-weight: 900;
+      margin: 0;
+    }
+    .section {
+      margin-top: 30px;
+      background: #dfeaf3;
+      border-radius: 30px;
+      padding: 25px;
+      box-shadow: inset 0 0 0 3px #b8d7ef;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: 25px;
+      align-items: center;
+    }
+    .infographic {
+      background: #dfeaf3;
+      text-align: center;
+      border-radius: 30px;
+      padding: 20px;
+    }
+    .infographic img {
+      width: 100%;
+      max-width: 700px;
+      border-radius: 20px;
+    }
+    iframe {
+      width: 100%;
+      min-height: 320px;
+      border: none;
+      border-radius: 20px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 18px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+    .icon {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 12px;
+      background: #2f6ecb;
+      color: white;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 10px;
+    }
+    @media (max-width: 800px) {
+      .two-col, .products {
+        grid-template-columns: 1fr;
+      }
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <h1>LỢI ÍCH CỦA CÔNG NGHỆ SỐ<br/>TRONG HỌC TẬP</h1>
+    </div>
+
+    <div class="section">
+      <div class="two-col">
+        <div class="infographic">
+          <img src="https://cdn.phototourl.com/member/2026-09-26-fa6de5b2-a7d7-4e57-a86e-81c978b4a5dd.png">
+        </div>
+        <div>
+          <h2>Tiếp cận kiến thức đa dạng</h2>
+          <p>Học sinh có thể truy cập tài liệu, khóa học và nguồn học từ khắp nơi trên thế giới.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="two-col">
+        <div>
+          <h2>Học tập linh hoạt mọi lúc mọi nơi</h2>
+          <p>Smartphone, máy tính và Internet giúp học tập hiệu quả dù ở bất cứ đâu.</p>
+        </div>
+        <div class="infographic">
+          <img src="https://paydestiny.com/media/2022/08/How-to-Negotiate-Salary-Icon.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="two-col">
+        <div class="infographic">
+          <img src="https://www.radgov.com/assets/uploads/solution/5ebbc8d897373_39210.png">
+        </div>
+        <div>
+          <h2>Tương tác và cộng tác dễ dàng</h2>
+          <p>Học sinh dễ dàng trao đổi, làm việc nhóm và học online mọi lúc.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="two-col">
+        <div>
+          <h2>Phát triển kỹ năng số hiện đại</h2>
+          <p>Giúp người học làm quen với công cụ số, kỹ năng nghiên cứu và sáng tạo.</p>
+        </div>
+        <div class="infographic">
+          <img src="https://cdn.phototourl.com/member/2026-09-26-a6432b70-5e95-4cef-b212-2041e3500ce6.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="two-col">
+        <div class="infographic">
+          <img src="https://cdn.phototourl.com/member/2026-09-26-73ff3669-bf05-466a-bb86-bbd35bf92e4c.png">
+        </div>
+        <div>
+          <h2>Tăng hiệu quả và cá nhân hóa học tập</h2>
+          <p>Công nghệ giúp học tập phù hợp với từng mục tiêu, tốc độ và phong cách học.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 style="margin-top:0;">Video học tập</h2>
+      <iframe src="https://www.youtube.com/embed/Lpy5nkSxcEs" allowfullscreen></iframe>
+    </div>
+
+    <div class="section">
+      <h2 style="margin-top:0;">3 sản phẩm đã tạo</h2>
+      <div class="products">
+        <div class="card">
+          <div class="icon">📄</div>
+          <h3>File PDF</h3>
+          <p>Project documentation in PDF format.</p>
+          <a href="#">View PDF</a>
+        </div>
+        <div class="card">
+          <div class="icon">🖼️</div>
+          <h3>File PNG</h3>
+          <p>Infographic designed as PNG image.</p>
+          <a href="#">View PNG</a>
+        </div>
+        <div class="card">
+          <div class="icon">🎬</div>
+          <h3>Video YouTube</h3>
+          <p>Embedded video presentation.</p>
+          <a href="https://www.youtube.com/watch?v=Lpy5nkSxcEs" target="_blank">Watch</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
