@@ -24,10 +24,11 @@ The repository includes the project documentation, licensing information, and so
 
 ```text
 CT005_B2604673_Lab05/
-├── README.md
-├── LICENSE.md
-├── portfolio.html
-├── .gitignore
-├── src/
-├── docs/
-└── ...
+  ├──lab05
+    ├── README.md
+    ├── LICENSE.md
+    ├── portfolio.html
+    ├── .gitignore
+    ├── src/
+    ├── docs/
+  └── ...
