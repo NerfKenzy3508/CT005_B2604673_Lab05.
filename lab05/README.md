@@ -1,6 +1,6 @@
 # CT005_B2604673_Lab05
 
-Repository for Lab 05 of the CT005 course, developed by B2604673.
+Repository for Lab 05 of the CT005 course, developed by Le Ngoc Thien (CTU - B2604673)
 
 ## Overview
 
@@ -26,9 +26,8 @@ The repository includes the project documentation, licensing information, and so
 CT005_B2604673_Lab05/
   ├──lab05
     ├── README.md
-    ├── LICENSE.md
-    ├── portfolio.html
-    ├── .gitignore
-    ├── src/
-    ├── docs/
-  └── ...
+    ├── Lab05_Ex2.1.png
+    ├── Lab5_Ex3.1.html
+    ├── Lab05_Ex1.1.pdf
+    ├── Lab05_Ex1.1.docx
+  └── LECENSE
