@@ -64,6 +64,7 @@ CT005_B2604673_Lab05/
   ├── lab05/
   │   ├── README.md
   │   ├── Lab05_Ex2.1.png
+  │   ├── Lab05_Ex1.2.png
   │   ├── Lab5_Ex3.1.html
   │   ├── Lab05_Ex1.1.pdf
   │   └── Lab05_Ex1.1.docx
